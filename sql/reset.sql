@@ -1,2 +1,2 @@
 DROP TABLE rankings CASCADE;
-DROP TABLE topics CASCADE;
+DROP TABLE topics;
