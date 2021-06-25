@@ -7,9 +7,10 @@ const hostname = '127.0.0.1';
 const express = require('express');
 const app = express();
 
+// Allows you to use your stylesheets and images, etc. 
+app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
-
 
 const es6Renderer = require('express-es6-template-engine');
 
